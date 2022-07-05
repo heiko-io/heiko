@@ -1,0 +1,29 @@
+{
+  "name": "heiko",
+  "version": "0.0.1",
+  "description": "Decentralized distributed computing mesh",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heiko-io/heiko.git"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/heiko-io/heiko/issues"
+  },
+  "homepage": "https://github.com/heiko-io/heiko#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@chainsafe/libp2p-noise": "^7.0.1",
+    "@libp2p/mplex": "^4.0.0",
+    "@libp2p/tcp": "^3.0.1",
+    "libp2p": "^0.37.3"
+  }
+}
