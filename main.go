@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	discoveries, err := peerdiscovery.Discover(peerdiscovery.Settings{ Limit: 0, Port: "5767", Payload: []byte("Hello There!") })
+	discoveries, err := peerdiscovery.Discover(peerdiscovery.Settings{ Limit: 0, Port: "5767", Payload: []byte("Hello There!") , MulticastAddress: "224.0.0.135"})
 	if err != nil {
 		panic(err)
 	}
